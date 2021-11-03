@@ -54,7 +54,7 @@ newSeconds += 1;
 
 if (newHour < 10) {
     HoursEnd.textContent = `0${newHour}`;
-} else if (newSeconds === 24) {
+} else if (newHour === 24) {
     HoursEnd.textContent = `00`;
 } else {
     HoursEnd.textContent = `${newHour}`;
